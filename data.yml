@@ -1,0 +1,138 @@
+---
+channel:
+  title: Sistem Informasi Perbukuan Indonesia
+  source:
+    id: tib-sibi
+    domain: teacherinabox.org
+  language: id
+  thumbnail: https://buku.kemdikbud.go.id/assets/image/logo-sibi.png
+  description: >
+    Badan Standar, Kurikulum, dan Asesmen Pendidikan, Kementerian Pendidikan,
+    Kebudayaan, Riset, dan Teknologi.
+license:
+  type: Special Permissions
+  copyright_holder: Indonesian Government
+  description: >
+    Books uploaded to SIBI are books published by the Indonesian Government,
+    so Indonesian people are allowed to use these books including downloading
+    and printing them. However, if they are to be traded, it is prohibited to
+    sell more than the highest retail price (HET) listed on the back cover of
+    the book.
+book_list_path: ../sibi_scraper/sibi_book_list.csv
+books_path: ../sibi_scraper/books
+audio_books_path: ../sibi_scraper/audiobooks
+topics:
+  - title: Teks Kurikulum Merdeka
+    id: sibi-teks-kurikulum-merdeka
+    key: Curriculum Text
+    children:
+      - title: PAUD
+        id: sibi-teks-kurikulum-merdeka-paud
+        key: "PAUD"
+      - title: "SDLB/SMPLB/SMALB"
+        id: sibi-teks-kurikulum-merdeka-sldb-smplb-smalb
+        key: "SDLB/SMPLB/SMALB"
+      - title: Kelas I
+        id: sibi-teks-kurikulum-merdeka-i
+        key: "1"
+      - title: Kelas II
+        id: sibi-teks-kurikulum-merdeka-ii
+        key: "2"
+      - title: Kelas III
+        id: sibi-teks-kurikulum-merdeka-iii
+        key: "3"
+      - title: Kelas IV
+        id: sibi-teks-kurikulum-merdeka-iv
+        key: "4"
+      - title: Kelas V
+        id: sibi-teks-kurikulum-merdeka-V
+        key: "5"
+      - title: Kelas VI
+        id: sibi-teks-kurikulum-merdeka-vi
+        key: "6"
+      - title: Kelas VII
+        id: sibi-teks-kurikulum-merdeka-vii
+        key: "7"
+      - title: Kelas VIII
+        id: sibi-teks-kurikulum-merdeka-viii
+        key: "8"
+      - title: Kelas IX
+        id: sibi-teks-kurikulum-merdeka-ix
+        key: "9"
+      - title: Kelas X
+        id: sibi-teks-kurikulum-merdeka-x
+        key: "10"
+      - title: Kelas XI
+        id: sibi-teks-kurikulum-merdeka-xi
+        key: "11"
+      - title: Kelas XII
+        id: sibi-teks-kurikulum-merdeka-xii
+        key: "12"
+  - title: Buku Teks
+    id: sibi-buku-teks
+    key: Text
+    children:
+      - title: Kelas I
+        id: sibi-buku-teks-i
+        key: "1"
+      - title: Kelas II
+        id: sibi-buku-teks-ii
+        key: "2"
+      - title: Kelas III
+        id: sibi-buku-teks-iii
+        key: "3"
+      - title: Kelas IV
+        id: sibi-buku-teks-iv
+        key: "4"
+      - title: Kelas V
+        id: sibi-buku-teks-v
+        key: "5"
+      - title: Kelas VI
+        id: sibi-buku-teks-vi
+        key: "6"
+      - title: Kelas VII
+        id: sibi-buku-teks-vii
+        key: "7"
+      - title: Kelas VIII
+        id: sibi-buku-teks-viii
+        key: "8"
+      - title: Kelas IX
+        id: sibi-buku-teks-ix
+        key: "9"
+      - title: Kelas X
+        id: sibi-buku-teks-x
+        key: "10"
+      - title: Kelas XI
+        id: sibi-buku-teks-xi
+        key: "11"
+      - title: Kelas XII
+        id: sibi-buku-teks-xii
+        key: "12"
+  - title: Buku Nonteks
+    id: sibi-buku-nonteks
+    key: Non-text
+    children:
+      - title: Pembaca Dina A
+        id: sibi-buku-nonteks-a
+        key: "A"
+      - title: Pembaca Awal B1
+        id: sibi-buku-nonteks-b1
+        key: "B1"
+      - title: Pembaca Awal B2
+        id: sibi-buku-nonteks-b2
+        key: "B2"
+      - title: Pembaca Awal B3
+        id: sibi-buku-nonteks-b3
+        key: "B3"
+      - title: Pembaca Semenjana C
+        id: sibi-buku-nonteks-c
+        key: "C"
+      - title: Pembaca Madya D
+        id: sibi-buku-nonteks-d
+        key: "D"
+      - title: Pembaca Mahir E
+        id: sibi-buku-nonteks-e
+        key: "E"
+      - title: Pembaca Transisi
+        id: sibi-buku-nonteks-transisi
+        key: "Transisi"
