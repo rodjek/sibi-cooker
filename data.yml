@@ -136,3 +136,488 @@ topics:
       - title: Pembaca Transisi
         id: sibi-buku-nonteks-transisi
         key: "Transisi"
+resource_type_map:
+    "Curriculum Text":
+      - resource_type.TEXTBOOK
+    "Text":
+      - resource_type.BOOK
+    "Non-text":
+      - resource_type.BOOK
+grade_levels_map:
+    "1":
+      - levels.LOWER_PRIMARY
+    "2":
+      - levels.LOWER_PRIMARY
+    "3":
+      - levels.LOWER_PRIMARY
+    "4":
+      - levels.UPPER_PRIMARY
+    "5":
+      - levels.UPPER_PRIMARY
+    "6":
+      - levels.UPPER_PRIMARY
+    "7":
+      - levels.LOWER_SECONDARY
+    "8":
+      - levels.LOWER_SECONDARY
+    "9":
+      - levels.LOWER_SECONDARY
+    "10":
+      - levels.UPPER_SECONDARY
+    "11":
+      - levels.UPPER_SECONDARY
+    "12":
+      - levels.UPPER_SECONDARY
+    "A":
+      - levels.PRESCHOOL
+    "B1":
+      - levels.PRESCHOOL
+    "B2":
+      - levels.PRESCHOOL
+    "B3":
+      - levels.PRESCHOOL
+    "C":
+      - levels.LOWER_PRIMARY
+    "D":
+      - levels.LOWER_PRIMARY
+    "E":
+      - levels.UPPER_PRIMARY
+    "Transisi":
+      - levels.PRESCHOOL
+    "PAUD":
+      - levels.PRESCHOOL
+    "SDLB/SMPLB/SMALB":
+      - levels.LOWER_SECONDARY
+subjects_map:
+  "pjok":
+    - subjects.SCHOOL
+    - subjects.FOR_TEACHERS
+  "ppkn":
+    - subjects.SCHOOL
+    - subjects.FOR_TEACHERS
+  "bahasa indonesia":
+    - subjects.SCHOOL
+    - subjects.LANGUAGE_LEARNING
+    - subjects.READING_AND_WRITING
+    - subjects.READING_COMPREHENSION
+  "bahasa inggris":
+    - subjects.SCHOOL
+    - subjects.LANGUAGE_LEARNING
+  "matematika":
+    - subjects.SCHOOL
+    - subjects.MATHEMATICS
+  "agama_budha":
+    - subjects.SCHOOL
+  "agama_hindu":
+    - subjects.SCHOOL
+  "agama_islam":
+    - subjects.SCHOOL
+  "agama_katolik":
+    - subjects.SCHOOL
+  "agama_khonghucu":
+    - subjects.SCHOOL
+  "agama_kristen":
+    - subjects.SCHOOL
+  "kepercayaan":
+    - subjects.SCHOOL
+  "seni_musik":
+    - subjects.SCHOOL
+    - subjects.ARTS
+    - subjects.MUSIC
+  "seni_rupa":
+    - subjects.SCHOOL
+    - subjects.ARTS
+  "seni_tari":
+    - subjects.SCHOOL
+    - subjects.ARTS
+    - subjects.DANCE
+  "seni_teater":
+    - subjects.SCHOOL
+    - subjects.ARTS
+    - subjects.DRAMA
+  "indonesia":
+    - subjects.SCHOOL
+    - subjects.LANGUAGE_LEARNING
+    - subjects.READING_AND_WRITING
+    - subjects.READING_COMPREHENSION
+  "ipas":
+    - subjects.SCHOOL
+    - subjects.SCIENCES
+  "":
+    - subjects.SCHOOL
+  "bahasa_inggris":
+    - subjects.SCHOOL
+    - subjects.LANGUAGE_LEARNING
+  "bahasa_indonesia":
+    - subjects.SCHOOL
+    - subjects.LANGUAGE_LEARNING
+    - subjects.READING_AND_WRITING
+    - subjects.READING_COMPREHENSION
+  "pendidikan pancasila":
+    - subjects.SCHOOL
+    - subjects.CIVIC_EDUCATION
+  "informatika":
+    - subjects.SCHOOL
+    - subjects.COMPUTER_SCIENCE
+    - subjects.SCIENCES
+  "prakarya":
+    - subjects.SCHOOL
+    - subjects.ARTS
+  "bahasa-inggris":
+    - subjects.SCHOOL
+    - subjects.LANGUAGE_LEARNING
+  "ipa":
+    - subjects.SCHOOL
+    - subjects.SCIENCES
+  "ips":
+    - subjects.SCHOOL
+    - subjects.SOCIAL_SCIENCES
+  "prakarya rekayasa":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.SCIENCES
+  "prakarya pengolahan":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.SCIENCES
+  "prakarya budidaya":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.SCIENCES
+    - subjects.ENVIRONMENT
+  "prakarya kerajinan":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.SCIENCES
+  "sejarah":
+    - subjects.SCHOOL
+    - subjects.HISTORY
+  "teknik_konstruksi_dan_perumahan":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "teknik_otomotif":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "teknik_elektronika":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "teknik_pesawat_udara":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "teknik_konstruksi_kapal ":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "teknik_ketenagalistrikan":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "teknik_geospasial ":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "teknik_geologi_pertambangan ":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.EARTH_SCIENCE
+  "layanan_kesehatan":
+    - subjects.SCHOOL
+    - subjects.SCIENCES
+  "agriteknologi_pengolahan_hasil_pertanian":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "manajemen_perkantoran_dan_layanan_bisnis":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "usaha_layanan_pariwisata":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "desain_komunikasi_visual":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "kuliner":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "teknik_furniture":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "teknik_geospasial":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_akuntansi_dan_keuangan_lembaga":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.FINANCIAL_LITERACY
+  "dasar_dasar_animasi":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.ARTS
+  "dasar_dasar_broadcasting_dan_perfilman":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_busana":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.ARTS
+  "dasar_dasar_teknologi_farmasi":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.BIOLOGY
+  "projek_ipas":
+    - subjects.SCHOOL
+    - subjects.SCIENCES
+  "dasar_dasar_teknik_jaringan_komputer_dan_telekomunikasi":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.COMPUTER_SCIENCE
+  "dasar_dasar_nautika_kapal_niaga":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.FINANCIAL_LITERACY
+  "dasar_dasar_nautika_kapal_penangkapan_ikan":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_kecantikan_dan_spa":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_kehutanan":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_pekerjaan_sosial":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_teknik_pengelasan_dan_fabrikasi_logam":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.MECHANICAL_ENGINEERING
+  "dasar_dasar_perhotelan":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_agribisnis_perikanan":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_teknik_perminyakan":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_pengembangan_perangkt_lunak_dan_gim":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.COMPUTER_SCIENCE
+  "dasar_dasar_agribisnis_tanaman":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_agribisnis_ternak":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_teknik_energi_terbarukan":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_desain_pemodelan_dan_informasi_bangunan":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_kimia_analisa":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.SCIENCES
+    - subjects.CHEMISTRY
+  "dasar_dasar_teknik_kontruksi_kapal":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_teknik_perawatan_gedung":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_usaha_pertanian_terpadu":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_desain_dan_produksi_kriya":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_seni_pertunjukan":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.ARTS
+  "dasar_dasar_seni_rupa":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.ARTS
+  "dasar_dasar_teknik_logistik":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_teknik_mesin":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_teknik_tekstil":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar_dasar_teknik_geologi_pertambangan":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.EARTH_SCIENCE
+  "dasar_dasar_pemasaran":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "dasar-dasar-teknik-kimia-industri":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.CHEMISTRY
+  "dasar_dasar_teknik_labolatorium_medik":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+    - subjects.CHEMISTRY
+  "dasar_dasar_kontruksi_dan_perawatan_bangunan_sipil":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING
+  "antropologi":
+    - subjects.SCHOOL
+    - subjects.ANTHROPOLOGY
+  "ekonomi":
+    - subjects.SCHOOL
+    - subjects.FINANCIAL_LITERACY
+  "geografi":
+    - subjects.SCHOOL
+    - subjects.SCIENCES
+    - subjects.EARTH_SCIENCE
+  "sosiologi":
+    - subjects.SCHOOL
+    - subjects.SOCIOLOGY
+  "kimia":
+    - subjects.SCHOOL
+    - subjects.SCIENCES
+    - subjects.CHEMISTRY
+  "fisika":
+    - subjects.SCHOOL
+    - subjects.SCIENCES
+    - subjects.PHYSICS
+  "biologi":
+    - subjects.SCHOOL
+    - subjects.SCIENCES
+    - subjects.BIOLOGY
+  "tematik":
+    - subjects.SCHOOL
+    - subjects.LITERATURE
+  "seni_budaya":
+    - subjects.SCHOOL
+    - subjects.LITERATURE
+  "inggris":
+    - subjects.SCHOOL
+    - subjects.LANGUAGE_LEARNING
+  "transisi paud sd":
+    - subjects.SCHOOL
+    - subjects.LITERATURE
+  "pendidikan kewarganegaraan":
+    - subjects.SCHOOL
+    - subjects.CIVIC_EDUCATION
+  "paud":
+    - subjects.SCHOOL
+  "pendidikan-khusus":
+    - subjects.SCHOOL
+  "produksi_dan_siaran_program_televisi":
+    - subjects.SCHOOL
+    - subjects.PROFESSIONAL_SKILLS
+    - subjects.SKILLS_TRAINING
+    - subjects.TECHNICAL_AND_VOCATIONAL_TRAINING

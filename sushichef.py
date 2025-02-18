@@ -6,6 +6,8 @@ from ricecooker.chefs import SushiChef
 from ricecooker.classes.files import DocumentFile, AudioFile
 from ricecooker.classes.licenses import get_license
 from ricecooker.classes.nodes import ChannelNode, DocumentNode, TopicNode, AudioNode
+from le_utils.constants.labels import resource_type, levels, subjects
+from le_utils.constants import roles
 import yaml
 
 
@@ -51,6 +53,11 @@ class TIBChef(SushiChef):
         with book_list.open(newline="", encoding="utf-8") as csvfile:
             reader = csv.DictReader(csvfile)
             for row in reader:
+                if "guru" in row["Book List Title"].lower():
+                    role = roles.COACH
+                else:
+                    role = roles.LEARNER
+
                 if row["Type"] == "PDF":
                     if row["Category"] == "Non-text":
                         key = row["Level"]
@@ -73,7 +80,20 @@ class TIBChef(SushiChef):
                                 path=str(Path(yaml_data["books_path"]).resolve() / key / row["File Name"]),
                                 language="id",
                             ),
-                        ]
+                        ],
+                        grade_levels=list(map(
+                            lambda r: resolve_metadata(r),
+                            yaml_data["grade_levels_map"][row["Class"]]
+                        )),
+                        resource_types=list(map(
+                            lambda r: resolve_metadata(r),
+                            yaml_data["resource_type_map"][row["Category"]]
+                        )),
+                        categories=list(map(
+                            lambda r: resolve_metadata(r),
+                            yaml_data["subjects_map"][row["Subject"].lower()],
+                        )),
+                        role=role,
                     )
                     topics[row["Category"] + key].add_child(document_node)
                 else:
@@ -83,6 +103,19 @@ class TIBChef(SushiChef):
                         title=row["Book List Title"],
                         source_id="sibi/" + row["Category"] + "/" + row["File Name"],
                         derive_thumbnail=True,
+                        grade_levels=list(map(
+                            lambda r: resolve_metadata(r),
+                            yaml_data["grade_levels_map"][row["Class"]]
+                        )),
+                        resource_types=list(map(
+                            lambda r: resolve_metadata(r),
+                            yaml_data["resource_type_map"][row["Category"]]
+                        )),
+                        categories=list(map(
+                            lambda r: resolve_metadata(r),
+                            yaml_data["subjects_map"][row["Subject"].lower()],
+                        )),
+                        role=role,
                     )
                     with file_list.open(newline="", encoding="utf-8") as audiocsv:
                         audioreader = csv.DictReader(audiocsv)
@@ -108,6 +141,11 @@ class TIBChef(SushiChef):
                         topics[row["Category"] + key].add_child(audio_book)
 
         return channel
+
+
+def resolve_metadata(name):
+    c_, o_ = name.split(".")
+    return getattr(globals()[c_], o_)
 
 
 if __name__ == "__main__":
